@@ -1,0 +1,3 @@
+Bu projede, Football Manager 2023 (FM23) verisi kullanılarak profesyonel futbolcuların teknik, zihinsel ve fiziksel özellikleri temel alınarak kümeleme (clustering) analizi yapılmıştır. Oyuncuların benzer performans profillerine göre gruplanması, takımların scouting süreçlerine katkı sağlayabilir. 
+
+Veri seti ön işleme aşamalarından geçirilmiş, StandardScaler ile ölçeklenmiş ve KMeans algoritmasıyla 8 farklı kümeye ayrılmıştır. Kümeleme sonuçları PCA yöntemi ile iki boyuta indirgenerek görselleştirilmiştir. Ayrıca her kümedeki oyuncuların ortalama özellik değerleri analiz edilerek kümelerin karakteristik profilleri belirlenmiştir. 
